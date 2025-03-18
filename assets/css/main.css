@@ -1,0 +1,143 @@
+body{
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+.offcanvas {
+  background: linear-gradient(130deg, #bdbcbc, #FFB8E0);
+  color: #09122C;
+}
+
+/* Offcanvas Header */
+.offcanvas-header {
+  color: #000000;
+  padding: 15px;
+}
+
+.offcanvas-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.btn-close {
+  filter: invert(1); 
+}
+
+.btn-close{
+  color: #000000;
+  background-color: #000000;
+}
+
+/* Navigation Menu */
+
+.hide{
+  display: none;
+}
+
+.dropdown-menu {
+  max-height: 400px;
+  max-width: 250px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+#countryImg {
+  margin-right: 10px;
+}
+
+#menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#menu ul li {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.192);
+}
+
+#menu ul li a {
+  display: block;
+  padding: 12px 15px;
+  color: #09122C;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 550;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  transition: all 0.3s ease-in-out;
+}
+
+#menu ul li a:hover {
+  background: rgba(255, 255, 255, 0.2);
+  padding-left: 20px;
+  color: #BE5985;
+}
+
+/* Contact Section */
+.get-in-touch{
+  margin-top: 10%;
+  background: #D9DFC6;
+  color: #000000;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.contact {
+  font-size: small;
+  padding: 15px;
+}
+
+.contact li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.contact li a {
+  color: #09122C;
+  text-decoration: none;
+}
+
+.contact li a:hover {
+  text-decoration: underline;
+  color: #ffffff;
+}
+
+/* Footer */
+#footer {
+  text-align: center;
+  padding: 15px;
+  font-size: 0.9rem;
+  background: #002b36;
+  border-top: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.copyright {
+  color: rgba(255, 255, 255, 0.7);
+  margin: 0;
+}
+
+/* navbar */
+@media (max-width: 971px) {
+  .divider {
+    border-right: 1px solid rgba(0, 0, 0, 0.192);
+    padding-right: 10px;
+    margin-right: 10px;
+  }
+
+  .dropdown-menu {
+    position: absolute !important;
+    top: 100%; 
+    left: 0;
+    right: 0; 
+    width: max-content; 
+    min-width: 150px; 
+    z-index: 1050;
+    display: none;
+    font-size: small;
+  }
+
+  .country-name,#langDropName, #langSel,#countrySel {
+    font-size: smaller;
+  }
+
+}
+
